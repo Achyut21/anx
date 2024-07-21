@@ -1,11 +1,11 @@
 import React from 'react'
 
-const BlogPost = () => {
+const Navbar = () => {
   return (
     <div>
-      BlogPost
+      Navber
     </div>
   )
 }
 
-export default BlogPost
+export default Navbar
