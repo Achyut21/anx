@@ -36,9 +36,9 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="relative h-32 w-32">
-      <Link className="absolute inset-y-0 left-0 w-16" href={"/"}>ANX</Link>
-        <div className="absolute inset-y-0 right-0 w-16">
+    <div>
+      <Link href={"/"}>ANX</Link>
+        <div>
           {links.map(link => (
             <Link  key={link.id} href={link.url}>
               {link.title}
