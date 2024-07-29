@@ -36,7 +36,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="relative">
       <Link classname ="h-8 w-8 flex flex-wrap-reverse" href={"/"}>ANX</Link>
         <div>
           {links.map(link => (
